@@ -1,0 +1,1 @@
+../../../Cellar/six/1.16.0_3/lib/python3.10/site-packages/six.py

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.9.6 on darwin)" generated="20230130 11:48:26.147" rpa="false" schemaversion="3">
+<suite id="s1" name="Acceptance" source="/Users/runtime/PycharmProjects/RuntimeRegression/Tests/TestSuites/3E/RegressionTests/Acceptance">
+<suite id="s1-s1" name="Portfolio" source="/Users/runtime/PycharmProjects/RuntimeRegression/Tests/TestSuites/3E/RegressionTests/Acceptance/Portfolio.robot">
+<test id="s1-s1-t1" name="Logout" line="38">
+<kw name="Open Browser To ACCEPTANCE Login Page" library="Keywords" type="SETUP">
+<kw name="Open Browser">
+<arg>${ACCEPTANCE LOGIN URL}</arg>
+<arg>${BROWSER1}</arg>
+<msg timestamp="20230130 11:48:26.225" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:26.225" endtime="20230130 11:48:26.225"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20230130 11:48:26.227" endtime="20230130 11:48:26.228"/>
+</kw>
+<kw name="Set Selenium Speed">
+<arg>0.5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:26.230" endtime="20230130 11:48:26.230"/>
+</kw>
+<kw name="Set Browser Implicit Wait">
+<arg>5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:26.232" endtime="20230130 11:48:26.232"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230130 11:48:26.232" endtime="20230130 11:48:26.232"/>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:26.223" endtime="20230130 11:48:26.232"/>
+</kw>
+<kw name="Finalize Test Case" library="Keywords" type="TEARDOWN">
+<doc>This will includ a wait time of 2 seconds and the [Teardown] close browser keyword</doc>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230130 11:48:30.235" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230130 11:48:26.234" endtime="20230130 11:48:30.235"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20230130 11:48:30.239" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:30.239" endtime="20230130 11:48:30.239">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:26.233" endtime="20230130 11:48:30.239">Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Logout regression test.</doc>
+<tag>acceptance</tag>
+<tag>demonstration</tag>
+<tag>logout</tag>
+<tag>portfolio</tag>
+<tag>regression</tag>
+<status status="FAIL" starttime="20230130 11:48:26.222" endtime="20230130 11:48:30.239">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t2" name="Check an alarm on Portfolio" line="46">
+<kw name="Open Browser To ACCEPTANCE Login Page" library="Keywords" type="SETUP">
+<kw name="Open Browser">
+<arg>${ACCEPTANCE LOGIN URL}</arg>
+<arg>${BROWSER1}</arg>
+<msg timestamp="20230130 11:48:30.244" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:30.243" endtime="20230130 11:48:30.244"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20230130 11:48:30.246" endtime="20230130 11:48:30.246"/>
+</kw>
+<kw name="Set Selenium Speed">
+<arg>0.5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:30.248" endtime="20230130 11:48:30.248"/>
+</kw>
+<kw name="Set Browser Implicit Wait">
+<arg>5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:30.250" endtime="20230130 11:48:30.250"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230130 11:48:30.250" endtime="20230130 11:48:30.250"/>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:30.241" endtime="20230130 11:48:30.250"/>
+</kw>
+<kw name="Finalize Test Case" library="Keywords" type="TEARDOWN">
+<doc>This will includ a wait time of 2 seconds and the [Teardown] close browser keyword</doc>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230130 11:48:34.253" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230130 11:48:30.251" endtime="20230130 11:48:34.253"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20230130 11:48:34.256" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:34.256" endtime="20230130 11:48:34.256">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:30.251" endtime="20230130 11:48:34.256">Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Check an alarm information in the portfolio manager</doc>
+<tag>acceptance</tag>
+<tag>alarms</tag>
+<tag>portfolio</tag>
+<tag>regression</tag>
+<status status="FAIL" starttime="20230130 11:48:30.240" endtime="20230130 11:48:34.257">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t3" name="Filter alarms by search item" line="59">
+<kw name="Open Browser To ACCEPTANCE Login Page" library="Keywords" type="SETUP">
+<kw name="Open Browser">
+<arg>${ACCEPTANCE LOGIN URL}</arg>
+<arg>${BROWSER1}</arg>
+<msg timestamp="20230130 11:48:34.260" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:34.260" endtime="20230130 11:48:34.260"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20230130 11:48:34.263" endtime="20230130 11:48:34.263"/>
+</kw>
+<kw name="Set Selenium Speed">
+<arg>0.5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:34.265" endtime="20230130 11:48:34.265"/>
+</kw>
+<kw name="Set Browser Implicit Wait">
+<arg>5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:34.266" endtime="20230130 11:48:34.267"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230130 11:48:34.267" endtime="20230130 11:48:34.267"/>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:34.258" endtime="20230130 11:48:34.267"/>
+</kw>
+<kw name="Finalize Test Case" library="Keywords" type="TEARDOWN">
+<doc>This will includ a wait time of 2 seconds and the [Teardown] close browser keyword</doc>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230130 11:48:38.269" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230130 11:48:34.267" endtime="20230130 11:48:38.269"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20230130 11:48:38.272" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:38.272" endtime="20230130 11:48:38.272">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:34.267" endtime="20230130 11:48:38.273">Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Portfolio-&gt;Alarms-&gt;Input any term in the search box and press enter</doc>
+<tag>3585</tag>
+<tag>acceptance</tag>
+<tag>alarms</tag>
+<tag>filter</tag>
+<tag>portfolio</tag>
+<tag>regression</tag>
+<status status="FAIL" starttime="20230130 11:48:34.257" endtime="20230130 11:48:38.273">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t4" name="Tags request for resource analysis" line="81">
+<kw name="Open Browser To ACCEPTANCE Login Page" library="Keywords" type="SETUP">
+<kw name="Open Browser">
+<arg>${ACCEPTANCE LOGIN URL}</arg>
+<arg>${BROWSER1}</arg>
+<msg timestamp="20230130 11:48:38.277" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:38.277" endtime="20230130 11:48:38.277"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20230130 11:48:38.279" endtime="20230130 11:48:38.279"/>
+</kw>
+<kw name="Set Selenium Speed">
+<arg>0.5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:38.281" endtime="20230130 11:48:38.281"/>
+</kw>
+<kw name="Set Browser Implicit Wait">
+<arg>5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:38.283" endtime="20230130 11:48:38.283"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230130 11:48:38.283" endtime="20230130 11:48:38.283"/>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:38.274" endtime="20230130 11:48:38.283"/>
+</kw>
+<kw name="Finalize Test Case" library="Keywords" type="TEARDOWN">
+<doc>This will includ a wait time of 2 seconds and the [Teardown] close browser keyword</doc>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230130 11:48:42.285" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230130 11:48:38.284" endtime="20230130 11:48:42.285"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20230130 11:48:42.288" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:42.288" endtime="20230130 11:48:42.288">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:38.284" endtime="20230130 11:48:42.288">Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Test quest to verify if there is a request for the tags of the Resource Analysis</doc>
+<tag>3771</tag>
+<tag>acceptance</tag>
+<tag>portfolio</tag>
+<tag>regression</tag>
+<tag>resource_analysis</tag>
+<tag>sprint60</tag>
+<status status="FAIL" starttime="20230130 11:48:38.273" endtime="20230130 11:48:42.288">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t5" name="Filters Remain Applied With Level Change" line="93">
+<kw name="Open Browser To ACCEPTANCE Login Page" library="Keywords" type="SETUP">
+<kw name="Open Browser">
+<arg>${ACCEPTANCE LOGIN URL}</arg>
+<arg>${BROWSER1}</arg>
+<msg timestamp="20230130 11:48:42.293" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:42.292" endtime="20230130 11:48:42.293"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20230130 11:48:42.294" endtime="20230130 11:48:42.295"/>
+</kw>
+<kw name="Set Selenium Speed">
+<arg>0.5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:42.296" endtime="20230130 11:48:42.296"/>
+</kw>
+<kw name="Set Browser Implicit Wait">
+<arg>5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:42.299" endtime="20230130 11:48:42.299"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230130 11:48:42.299" endtime="20230130 11:48:42.299"/>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:42.290" endtime="20230130 11:48:42.299"/>
+</kw>
+<kw name="Finalize Test Case" library="Keywords" type="TEARDOWN">
+<doc>This will includ a wait time of 2 seconds and the [Teardown] close browser keyword</doc>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230130 11:48:46.301" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230130 11:48:42.300" endtime="20230130 11:48:46.301"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20230130 11:48:46.304" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:46.304" endtime="20230130 11:48:46.304">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:42.300" endtime="20230130 11:48:46.305">Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Filters should remain applied in Portfolio when a user decides to change level and go back</doc>
+<tag>3996</tag>
+<tag>acceptance</tag>
+<tag>filters</tag>
+<tag>portfolio</tag>
+<tag>qackathon</tag>
+<tag>regression</tag>
+<status status="FAIL" starttime="20230130 11:48:42.289" endtime="20230130 11:48:46.305">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t6" name="Portfolio Map Data Refresh" line="104">
+<kw name="Open Browser To ACCEPTANCE Login Page" library="Keywords" type="SETUP">
+<kw name="Open Browser">
+<arg>${ACCEPTANCE LOGIN URL}</arg>
+<arg>${BROWSER1}</arg>
+<msg timestamp="20230130 11:48:46.308" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:46.308" endtime="20230130 11:48:46.308"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20230130 11:48:46.311" endtime="20230130 11:48:46.311"/>
+</kw>
+<kw name="Set Selenium Speed">
+<arg>0.5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:46.313" endtime="20230130 11:48:46.313"/>
+</kw>
+<kw name="Set Browser Implicit Wait">
+<arg>5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:46.315" endtime="20230130 11:48:46.315"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230130 11:48:46.315" endtime="20230130 11:48:46.315"/>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:46.306" endtime="20230130 11:48:46.315"/>
+</kw>
+<kw name="Finalize Test Case" library="Keywords" type="TEARDOWN">
+<doc>This will includ a wait time of 2 seconds and the [Teardown] close browser keyword</doc>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230130 11:48:50.317" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230130 11:48:46.316" endtime="20230130 11:48:50.317"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20230130 11:48:50.320" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:50.320" endtime="20230130 11:48:50.320">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:46.316" endtime="20230130 11:48:50.321">Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>After a set timeframe elapses, the page should refresh content and update the information</doc>
+<tag>acceptance</tag>
+<tag>graphs</tag>
+<tag>map</tag>
+<tag>portfolio</tag>
+<tag>qackathon</tag>
+<tag>refresh</tag>
+<tag>regression</tag>
+<tag>update</tag>
+<status status="FAIL" starttime="20230130 11:48:46.305" endtime="20230130 11:48:50.321">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t7" name="Tasks - Filter Validation" line="124">
+<kw name="Open Browser To ACCEPTANCE Login Page" library="Keywords" type="SETUP">
+<kw name="Open Browser">
+<arg>${ACCEPTANCE LOGIN URL}</arg>
+<arg>${BROWSER1}</arg>
+<msg timestamp="20230130 11:48:50.324" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:50.324" endtime="20230130 11:48:50.324"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20230130 11:48:50.326" endtime="20230130 11:48:50.326"/>
+</kw>
+<kw name="Set Selenium Speed">
+<arg>0.5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:50.328" endtime="20230130 11:48:50.328"/>
+</kw>
+<kw name="Set Browser Implicit Wait">
+<arg>5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:50.331" endtime="20230130 11:48:50.331"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230130 11:48:50.332" endtime="20230130 11:48:50.332"/>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:50.322" endtime="20230130 11:48:50.332"/>
+</kw>
+<kw name="Finalize Test Case" library="Keywords" type="TEARDOWN">
+<doc>This will includ a wait time of 2 seconds and the [Teardown] close browser keyword</doc>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230130 11:48:54.334" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230130 11:48:50.333" endtime="20230130 11:48:54.334"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20230130 11:48:54.338" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:54.338" endtime="20230130 11:48:54.338">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:50.332" endtime="20230130 11:48:54.338">Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>This test case will approach the portfolio tasks filter and verify its condition</doc>
+<tag>3827</tag>
+<tag>acceptance</tag>
+<tag>portfolio</tag>
+<tag>qackathon</tag>
+<tag>regression</tag>
+<tag>tasks</tag>
+<status status="FAIL" starttime="20230130 11:48:50.321" endtime="20230130 11:48:54.338">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<test id="s1-s1-t8" name="Tasks - scroll bar validation in the task forms" line="154">
+<kw name="Open Browser To ACCEPTANCE Login Page" library="Keywords" type="SETUP">
+<kw name="Open Browser">
+<arg>${ACCEPTANCE LOGIN URL}</arg>
+<arg>${BROWSER1}</arg>
+<msg timestamp="20230130 11:48:54.342" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:54.342" endtime="20230130 11:48:54.342"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20230130 11:48:54.346" endtime="20230130 11:48:54.346"/>
+</kw>
+<kw name="Set Selenium Speed">
+<arg>0.5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:54.349" endtime="20230130 11:48:54.349"/>
+</kw>
+<kw name="Set Browser Implicit Wait">
+<arg>5s</arg>
+<status status="NOT RUN" starttime="20230130 11:48:54.351" endtime="20230130 11:48:54.351"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230130 11:48:54.351" endtime="20230130 11:48:54.352"/>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:54.340" endtime="20230130 11:48:54.352"/>
+</kw>
+<kw name="Finalize Test Case" library="Keywords" type="TEARDOWN">
+<doc>This will includ a wait time of 2 seconds and the [Teardown] close browser keyword</doc>
+<kw name="Sleep" library="BuiltIn">
+<arg>4s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230130 11:48:58.355" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20230130 11:48:54.352" endtime="20230130 11:48:58.355"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20230130 11:48:58.358" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20230130 11:48:58.358" endtime="20230130 11:48:58.358">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20230130 11:48:54.352" endtime="20230130 11:48:58.358">Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc>Validation of the scroll bars behaviour</doc>
+<tag>3995</tag>
+<tag>acceptance</tag>
+<tag>demonstration</tag>
+<tag>portfolio</tag>
+<tag>regression</tag>
+<tag>sprint61</tag>
+<tag>tasks</tag>
+<tag>VR</tag>
+<status status="FAIL" starttime="20230130 11:48:54.339" endtime="20230130 11:48:58.359">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+Keyword teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>Acceptance | Portfolio Regression</doc>
+<status status="FAIL" starttime="20230130 11:48:26.176" endtime="20230130 11:48:58.360"/>
+</suite>
+<status status="FAIL" starttime="20230130 11:48:26.148" endtime="20230130 11:48:58.362"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="8" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">3585</stat>
+<stat pass="0" fail="1" skip="0">3771</stat>
+<stat pass="0" fail="1" skip="0">3827</stat>
+<stat pass="0" fail="1" skip="0">3995</stat>
+<stat pass="0" fail="1" skip="0">3996</stat>
+<stat pass="0" fail="8" skip="0">acceptance</stat>
+<stat pass="0" fail="2" skip="0">alarms</stat>
+<stat pass="0" fail="2" skip="0">demonstration</stat>
+<stat pass="0" fail="1" skip="0">filter</stat>
+<stat pass="0" fail="1" skip="0">filters</stat>
+<stat pass="0" fail="1" skip="0">graphs</stat>
+<stat pass="0" fail="1" skip="0">logout</stat>
+<stat pass="0" fail="1" skip="0">map</stat>
+<stat pass="0" fail="8" skip="0">portfolio</stat>
+<stat pass="0" fail="3" skip="0">qackathon</stat>
+<stat pass="0" fail="1" skip="0">refresh</stat>
+<stat pass="0" fail="8" skip="0">regression</stat>
+<stat pass="0" fail="1" skip="0">resource_analysis</stat>
+<stat pass="0" fail="1" skip="0">sprint60</stat>
+<stat pass="0" fail="1" skip="0">sprint61</stat>
+<stat pass="0" fail="2" skip="0">tasks</stat>
+<stat pass="0" fail="1" skip="0">update</stat>
+<stat pass="0" fail="1" skip="0">VR</stat>
+</tag>
+<suite>
+<stat pass="0" fail="8" skip="0" id="s1" name="Acceptance">Acceptance</stat>
+<stat pass="0" fail="8" skip="0" id="s1-s1" name="Portfolio">Acceptance.Portfolio</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230130 11:48:26.178" level="ERROR">Error in file '/Users/runtime/PycharmProjects/RuntimeRegression/Tests/TestSuites/3E/RegressionTests/Acceptance/Portfolio.robot' on line 17: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/runtime/PycharmProjects/RuntimeRegression
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages</msg>
+<msg timestamp="20230130 11:48:26.200" level="ERROR">Error in file '/Users/runtime/PycharmProjects/RuntimeRegression/Tests/TestSuites/3E/RegressionTests/Acceptance/Portfolio.robot' on line 19: Importing library 'WatchUI' failed: ModuleNotFoundError: No module named 'WatchUI'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/runtime/PycharmProjects/RuntimeRegression
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages</msg>
+<msg timestamp="20230130 11:48:26.205" level="ERROR">Error in file '/Users/runtime/PycharmProjects/RuntimeRegression/Resources/Variables&amp;Keywords/Variables.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/runtime/PycharmProjects/RuntimeRegression
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages</msg>
+<msg timestamp="20230130 11:48:26.207" level="ERROR">Error in file '/Users/runtime/PycharmProjects/RuntimeRegression/Resources/Variables&amp;Keywords/Variables.robot' on line 5: Importing library 'WatchUI' failed: ModuleNotFoundError: No module named 'WatchUI'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/runtime/PycharmProjects/RuntimeRegression
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages</msg>
+<msg timestamp="20230130 11:48:26.217" level="ERROR">Error in file '/Users/runtime/PycharmProjects/RuntimeRegression/Resources/Variables&amp;Keywords/Keywords.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/runtime/PycharmProjects/RuntimeRegression
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages</msg>
+<msg timestamp="20230130 11:48:26.220" level="ERROR">Error in file '/Users/runtime/PycharmProjects/RuntimeRegression/Resources/Variables&amp;Keywords/Keywords.robot' on line 5: Importing library 'WatchUI' failed: ModuleNotFoundError: No module named 'WatchUI'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Users/runtime/PycharmProjects/RuntimeRegression
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload
+  /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages</msg>
+</errors>
+</robot>

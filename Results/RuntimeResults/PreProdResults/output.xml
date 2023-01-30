@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on darwin)" generated="20220927 17:48:15.311" rpa="false" schemaversion="3">
+<suite id="s1" name="Production" source="/Users/runtime/PycharmProjects/RuntimeRegression/Tests/TestSuites/3E/RegressionTests/Production">
+<suite id="s1-s1" name="Portfolio" source="/Users/runtime/PycharmProjects/RuntimeRegression/Tests/TestSuites/3E/RegressionTests/Production/Portfolio.robot">
+<test id="s1-s1-t1" name="Tasks - scroll bar validation in the task forms" line="58">
+<kw name="Open Browser To ACCEPTANCE Login Page" type="SETUP">
+<msg timestamp="20220927 17:48:15.590" level="FAIL">No keyword with name 'Open Browser To ACCEPTANCE Login Page' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" starttime="20220927 17:48:15.590" endtime="20220927 17:48:15.590"/>
+</kw>
+<kw name="Finalize Test Case" type="TEARDOWN">
+<msg timestamp="20220927 17:48:15.594" level="FAIL">No keyword with name 'Finalize Test Case' found.</msg>
+<status status="FAIL" starttime="20220927 17:48:15.594" endtime="20220927 17:48:15.594">No keyword with name 'Finalize Test Case' found.</status>
+</kw>
+<doc>Validation of the scroll bars behaviour</doc>
+<tag>3995</tag>
+<tag>demonstration</tag>
+<tag>portfolio</tag>
+<tag>prod</tag>
+<tag>regression</tag>
+<tag>sprint61</tag>
+<tag>tasks</tag>
+<tag>VR</tag>
+<status status="FAIL" starttime="20220927 17:48:15.586" endtime="20220927 17:48:15.594">Setup failed:
+No keyword with name 'Open Browser To ACCEPTANCE Login Page' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?
+
+Also teardown failed:
+No keyword with name 'Finalize Test Case' found.</status>
+</test>
+<doc>Acceptance | Portfolio Regression</doc>
+<status status="FAIL" starttime="20220927 17:48:15.338" endtime="20220927 17:48:15.595"/>
+</suite>
+<status status="FAIL" starttime="20220927 17:48:15.313" endtime="20220927 17:48:15.596"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">3995</stat>
+<stat pass="0" fail="1" skip="0">demonstration</stat>
+<stat pass="0" fail="1" skip="0">portfolio</stat>
+<stat pass="0" fail="1" skip="0">prod</stat>
+<stat pass="0" fail="1" skip="0">regression</stat>
+<stat pass="0" fail="1" skip="0">sprint61</stat>
+<stat pass="0" fail="1" skip="0">tasks</stat>
+<stat pass="0" fail="1" skip="0">VR</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Production">Production</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Portfolio">Production.Portfolio</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220927 17:48:15.585" level="ERROR">Error in file '/Users/runtime/PycharmProjects/RuntimeRegression/Tests/TestSuites/3E/RegressionTests/Production/Portfolio.robot' on line 12: Resource file '../Variables&amp;Keywords/Variables.robot' does not exist.</msg>
+<msg timestamp="20220927 17:48:15.585" level="ERROR">Error in file '/Users/runtime/PycharmProjects/RuntimeRegression/Tests/TestSuites/3E/RegressionTests/Production/Portfolio.robot' on line 13: Resource file '../Variables&amp;Keywords/Keywords.robot' does not exist.</msg>
+</errors>
+</robot>

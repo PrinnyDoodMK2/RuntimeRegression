@@ -1,0 +1,18 @@
+1658769998227	geckodriver	INFO	Listening on 127.0.0.1:49547
+1658769998471	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49548" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/q7/n562bdl10nd3w595b5gytbhw0000gn/T/rust_mozprofileMxBo2F"
+1658770003222	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49548
+2022-07-25 18:26:43.348 plugin-container[35063:5361935] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-25 18:26:43.349 plugin-container[35063:5361935] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-25 18:26:43.368 plugin-container[35063:5361935] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-25 18:26:43.368 plugin-container[35063:5361935] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-25 18:26:43.368 plugin-container[35063:5361990] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-25 18:26:43.368 plugin-container[35063:5361990] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/q7/n562bdl10nd3w595b5gytbhw0000gn/T/rust_mozprofileMxBo2F/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1658770005717	Marionette	INFO	Listening on port 49587
+DevTools listening on ws://localhost:49548/devtools/browser/c22010d9-ae82-40c9-9a25-27703fd4eb97
+Read port: 49587
+1658770005794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658770008409	Marionette	INFO	Stopped listening on port 49587

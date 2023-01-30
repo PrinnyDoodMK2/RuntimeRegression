@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on darwin)" generated="20220824 12:30:26.425" rpa="false" schemaversion="3">
+<suite id="s1" name="Alarms" source="/Users/runtime/PycharmProjects/RuntimeRegression/Tests/TestSuites/3E/RegressionTests/Local/Alarms.robot">
+<test id="s1-t1" name="Disable &amp; Enable Alarm through the panel button" line="37">
+<kw name="Open Browser To LOCAL Login Page" library="Keywords" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${LOCAL LOGIN URL}</arg>
+<arg>${BROWSER1}</arg>
+<arg>runtime_profile_dir=${RUNTIME_PROFILE}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220824 12:30:26.581" level="INFO">Opening browser 'chrome' to base url 'http://localhost:3000/portfoliomanager/sign-in'.</msg>
+<status status="PASS" starttime="20220824 12:30:26.580" endtime="20220824 12:30:30.687"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220824 12:30:30.688" endtime="20220824 12:30:30.850"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.5s</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220824 12:30:30.850" endtime="20220824 12:30:30.851"/>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<arg>5s</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" starttime="20220824 12:30:30.851" endtime="20220824 12:30:31.358"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220824 12:30:33.361" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220824 12:30:31.359" endtime="20220824 12:30:33.361"/>
+</kw>
+<status status="PASS" starttime="20220824 12:30:26.580" endtime="20220824 12:30:33.362"/>
+</kw>
+<kw name="Login Local" library="Keywords">
+<doc>This keyword will perfom the steps for a valid login in LOCAL</doc>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name=username</arg>
+<arg>${LOCAL USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220824 12:30:33.363" level="INFO">Typing text 'runtimerev' into text field 'name=username'.</msg>
+<status status="PASS" starttime="20220824 12:30:33.362" endtime="20220824 12:30:35.039"/>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<arg>name=password</arg>
+<arg>${LOCAL PASSWORD}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<msg timestamp="20220824 12:30:35.040" level="INFO">Typing password into text field 'name=password'.</msg>
+<msg timestamp="20220824 12:30:36.083" level="INFO">Temporally setting log level to: NONE</msg>
+<msg timestamp="20220824 12:30:36.640" level="INFO">Log level changed from NONE to INFO.</msg>
+<status status="PASS" starttime="20220824 12:30:35.040" endtime="20220824 12:30:36.640"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>class=button</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220824 12:30:36.641" level="INFO">Clicking element 'class=button'.</msg>
+<status status="PASS" starttime="20220824 12:30:36.641" endtime="20220824 12:30:37.713"/>
+</kw>
+<status status="PASS" starttime="20220824 12:30:33.362" endtime="20220824 12:30:37.713"/>
+</kw>
+<kw name="Access Alarms Manager" library="Keywords">
+<doc>This keyword will include the steps to access the alarms manager</doc>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[2]/div[1]/a[4]/div</arg>
+<arg>15s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220824 12:30:37.713" endtime="20220824 12:30:39.017"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[2]/div[1]/a[4]/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220824 12:30:39.017" level="INFO">Clicking element '//*[@id="root"]/div/div[2]/div[1]/a[4]/div'.</msg>
+<status status="PASS" starttime="20220824 12:30:39.017" endtime="20220824 12:30:40.302"/>
+</kw>
+<status status="PASS" starttime="20220824 12:30:37.713" endtime="20220824 12:30:40.302"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="main-app"]/div[1]/div[1]/nav/div/div[2]/div/ul/li/ul/div/div/li[8]/div/div[2]/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220824 12:30:40.303" level="INFO">Clicking element '//*[@id="main-app"]/div[1]/div[1]/nav/div/div[2]/div/ul/li/ul/div/div/li[8]/div/div[2]/span'.</msg>
+<status status="PASS" starttime="20220824 12:30:40.303" endtime="20220824 12:30:42.468"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220824 12:30:45.469" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220824 12:30:42.468" endtime="20220824 12:30:45.470"/>
+</kw>
+<kw name="Reload Page" library="SeleniumLibrary">
+<doc>Simulates user reloading page.</doc>
+<status status="PASS" starttime="20220824 12:30:45.470" endtime="20220824 12:30:46.039"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1m</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220824 12:31:46.041" level="INFO">Slept 1 minute</msg>
+<status status="PASS" starttime="20220824 12:30:46.039" endtime="20220824 12:31:46.041"/>
+</kw>
+<kw name="Finalize Test Case" library="Keywords" type="TEARDOWN">
+<doc>This will includ a wait time of 2 seconds and the [Teardown] close browser keyword</doc>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220824 12:31:49.044" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220824 12:31:46.042" endtime="20220824 12:31:49.044"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220824 12:31:49.045" endtime="20220824 12:31:49.685"/>
+</kw>
+<status status="PASS" starttime="20220824 12:31:46.042" endtime="20220824 12:31:49.685"/>
+</kw>
+<doc>Alarms Management panel, user can enable and disable an alarm</doc>
+<tag>3714</tag>
+<tag>alarms</tag>
+<tag>disable</tag>
+<tag>enale</tag>
+<tag>local</tag>
+<tag>regression</tag>
+<status status="PASS" starttime="20220824 12:30:26.579" endtime="20220824 12:31:49.686"/>
+</test>
+<doc>Local | Alarms Regression</doc>
+<status status="PASS" starttime="20220824 12:30:26.429" endtime="20220824 12:31:49.687"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">3714</stat>
+<stat pass="1" fail="0" skip="0">alarms</stat>
+<stat pass="1" fail="0" skip="0">disable</stat>
+<stat pass="1" fail="0" skip="0">enale</stat>
+<stat pass="1" fail="0" skip="0">local</stat>
+<stat pass="1" fail="0" skip="0">regression</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Alarms">Alarms</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,16 @@
+1658856324341	geckodriver	INFO	Listening on 127.0.0.1:50246
+1658856324880	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50247" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/q7/n562bdl10nd3w595b5gytbhw0000gn/T/rust_mozprofileLJ5w8H"
+1658856326335	Marionette	INFO	Marionette enabled
+2022-07-26 18:25:26.342 plugin-container[42731:5583174] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-26 18:25:26.348 plugin-container[42731:5583174] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1658856326391	Marionette	INFO	Listening on port 50262
+WebDriver BiDi listening on ws://localhost:50247
+2022-07-26 18:25:26.404 plugin-container[42731:5583174] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-26 18:25:26.404 plugin-container[42731:5583174] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-26 18:25:26.405 plugin-container[42731:5583177] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-26 18:25:26.405 plugin-container[42731:5583177] nil host used in call to allowsAnyHTTPSCertificateForHost:
+Read port: 50262
+1658856326875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/q7/n562bdl10nd3w595b5gytbhw0000gn/T/rust_mozprofileLJ5w8H/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50247/devtools/browser/fbe0a4c8-8fb2-44c2-a7b0-f2f1e005cc09
+1658856330728	Marionette	INFO	Stopped listening on port 50262

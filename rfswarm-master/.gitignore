@@ -1,0 +1,22 @@
+# patterns of files to ignore / prevent uploading
+famfamfam_silk_icons/*
+results/*
+robots/*
+Scenarios/*
+*/*.rfs
+*.7z
+*.zip
+*.ini
+*.rfs
+*.html
+*.xml
+*Tests/*.png
+*driver.log
+*log.txt
+Resources/*
+dist/*
+build/*
+*.egg-info/*
+__pycache__
+rfswarm_gui/logs/*
+!Doc/Images/*.html
